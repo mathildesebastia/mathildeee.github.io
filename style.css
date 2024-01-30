@@ -1,0 +1,45 @@
+h1{
+    font-size: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(30, 30,30);
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.box-yellow{
+    padding: 40px;
+    margin: 40px auto;
+    justify-content: center;
+    width: 100%;
+    border: 3px red solid;
+    height: 100vw;
+}
+.button-red{
+    background-color: red;
+    color: white;
+    padding: 12px 16px;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+.button-red:hover{
+    background-color: white;
+    border: 3px red solid;
+    color: red;
+    transition: 2s;
+}
+.dogs-picture {
+    width: 200px;
+    height: auto;
+}
+
+#dogs-bordered {
+    border: 4px red dashed;
+}
